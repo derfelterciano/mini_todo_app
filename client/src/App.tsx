@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <div className="bg-black shadow-lg rounded-lg p-6 w-96">
+    <div className="">
       <h1 className="">To-Do List</h1>
       <div>
         <input
