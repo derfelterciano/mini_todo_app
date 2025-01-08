@@ -1,1 +1,1 @@
-export { Client } from "https://deno.land/x/postgres/mod.ts";
+export { DB } from "https://deno.land/x/sqlite/mod.ts";
