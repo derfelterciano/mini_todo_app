@@ -1,0 +1,43 @@
+.main {
+  @apply bg-sky-300 shadow-lg rounded-lg p-5 py-10 w-1/2 h-[600px]; /* Background, padding, width, and rounded corners */
+  position: absolute; /* Required for centering */
+  top: 30%; /* Move to the middle of the screen */
+  left: 50%; /* Move to the middle of the screen */
+  transform: translate(-50%, -50%); /* Adjust for true centering */
+}
+
+.title {
+  @apply text-3xl font-bold text-center pt-2 pb-10;
+}
+
+.input-field {
+  @apply flex bg-sky-200 justify-center p-5 border border-gray-700 rounded-md;
+}
+
+.input-txt {
+  @apply flex bg-white justify-center rounded-lg border-2 border-black px-3 mx-2;
+}
+
+.input-btn {
+  @apply flex justify-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800;
+}
+
+.t-list {
+  @apply bg-sky-500 h-[350px] my-5 p-2 overflow-y-auto border border-gray-700 rounded-md;
+}
+
+.raw-list {
+  @apply flex items-center justify-between py-2 px-4 bg-white rounded-md shadow-md mb-2;
+}
+
+.raw-list input[type="checkbox"] {
+  @apply h-5 w-5; /* Style the checkbox */
+}
+
+.raw-list button {
+  @apply bg-red-500 text-white px-3 py-1 rounded-md hover:bg-red-600; /* Style the Delete button */
+}
+
+.raw-list span {
+  @apply flex-1 mx-3 truncate; /* Ensure the task name stretches and doesn't overflow */
+}

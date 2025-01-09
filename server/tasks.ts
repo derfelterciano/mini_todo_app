@@ -32,6 +32,6 @@ export function updateTask(id: number, completed: boolean) {
     `
 			 UPDATE tasks SET completed = ? WHERE id = ?;
 			 `,
-    [id, completed],
+    [completed, id],
   );
 }
